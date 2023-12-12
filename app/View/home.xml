@@ -1,0 +1,42 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <stack-layout>
+        <flexbox-layout>
+            <Button ontap="{{ convertLengthUnitsOfMeasure }}">
+                <FormattedString>
+                    <Span text="&#xf545;" class="fas logo"/>
+                    <Span text="&#xa;&#xA;" class="spaceBetweenLogoAndText"/>
+                    <Span text="Длина" class="text"/>
+                </FormattedString>
+            </Button>
+            <Button ontap="{{ convertAreaUnitsOfMeasure }}">
+                <FormattedString>
+                    <Span text="&#xf5cb;" class="fas logo"/>
+                    <Span text="&#xa;&#xA;" class="spaceBetweenLogoAndText"/>
+                    <Span text="Площадь" class="text" />
+                </FormattedString>
+            </Button>
+            <Button ontap="{{ convertVolumeUnitsOfMeasure }}">
+                <FormattedString>
+                    <Span text="&#xf6b6;" class="fas logo"/>
+                    <Span text="&#xa;&#xA;" class="spaceBetweenLogoAndText"/>
+                    <Span text="Объем" class="text"/>
+                </FormattedString>
+            </Button>
+            <Button ontap="{{ convertTimeUnitsOfMeasure }}">
+                <FormattedString>
+                    <Span text="&#xf017;" class="fas logo"/>
+                    <Span text="&#xa;&#xA;" />
+                    <Span text="Время" class="text"/>
+                </FormattedString>
+            </Button>
+            <Button ontap="{{ convertWeightUnitsOfMeasure }}">
+                <FormattedString>
+                    <Span text="&#xf5cd;" class="fas logo"/>
+                    <Span text="&#xa;&#xA;" />
+                    <Span text="Вес" class="text"/>
+                </FormattedString>
+            </Button>
+            <Button visibility="hidden"/>
+        </flexbox-layout>
+    </stack-layout>
+</Page>

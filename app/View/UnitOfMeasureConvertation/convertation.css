@@ -1,0 +1,72 @@
+Page
+{
+    background-color: rgb(88, 81, 81);
+}
+
+Page .convertionParticipants
+{
+    height: 49%;
+    padding: 0 15px;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+
+Page .convertionParticipants > *
+{
+    justify-content: center;
+    flex-flow: column nowrap;
+    height: 48%;
+    padding: 0 40px;
+    border-radius: 16% 16% 16% 16%;
+    background-color: #e39c9c;
+}
+
+Page .convertionParticipants .Name
+{
+    color: hsl(277, 100%, 30%);
+    font-size: 26px;
+}
+
+Page .convertionParticipants .Value
+{
+    align-self: flex-end;
+    font-size: 26px;
+}
+
+Page .swapConvertionParticipants
+{
+    border-radius: 9% 9% 9% 9%;
+    font-size: 24px;
+    height: 6%;
+    background-color: #98de92;
+}
+
+Page .swapConvertionParticipants:highlighted
+{
+    background-color: hsl(119, 71%, 49%);
+}
+
+Page .userInput
+{
+    height: 45%;
+    padding: 0 15px;
+    background-color: #050404;
+}
+
+Page .userInput > Button
+{
+    border-radius: 19%;
+    font-size: 29px;
+    width: 23%;
+    height: auto;
+}
+
+Page .userInput > Button:highlighted
+{
+    background-color: hsl(0, 27%, 9%);
+}
+
+Page .userInput > Button[text='0']
+{
+    width: 48%;
+}
